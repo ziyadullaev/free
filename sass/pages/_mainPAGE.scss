@@ -1,0 +1,726 @@
+@import "../base/reset";
+@import "../utils/variables";
+@import "../utils/mixing";
+
+main {
+    background-image: url('/assets/images/01\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    bottom: 10px;
+
+    .main-text {
+        width: 500px;
+        position: absolute;
+        top: 30%;
+        left: 70px;
+        color: white;
+
+        h2 {
+            font-family: 20 Kopeek Book;
+            font-size: 55px;
+            line-height: 55px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #181818;
+        }
+
+        p {
+            //styleName: Tab — H2;
+            font-family: 20 Kopeek Book;
+            font-size: 34px;
+            line-height: 37.4px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #181818;
+
+        }
+
+        .main-butons {
+            display: flex;
+            gap: 20px;
+
+            p {
+                font-size: 18px;
+                padding: 10px 30px;
+                background-color: #FFFFFF;
+                border-radius: 50px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+
+                &:hover {
+                    background-color: #b3a6a6;
+                }
+
+                a {
+                    color: #181818;
+                    text-decoration: none;
+                }
+
+                span {
+                    margin-left: 10px;
+                }
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+
+        img {
+            height: 40px;
+            width: auto;
+        }
+
+        gap: 10px;
+
+        p {
+            //styleName: Desk — Notes;
+            font-family: "Hind Mysuru", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 19.44px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #ffffff;
+        }
+    }
+
+    nav {
+        display: flex;
+
+        img {
+            height: 40px;
+            width: auto;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    }
+}
+
+.section1 {
+    padding-top: 50px;
+
+    h2 {
+        //styleName: Desk — H2;
+        font-family: 20 Kopeek Book;
+        font-size: 38px;
+        font-weight: 400;
+        line-height: 41.8px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #181818;
+    }
+}
+
+.section1-content {
+
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: start;
+
+
+    .section1-text {
+        p {
+            //styleName: Desk — Body;
+            font-family: 20 Kopeek;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 25.2px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #181818;
+        }
+    }
+}
+
+.section2 {
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+        //styleName: Desk — H1;
+        font-family: 20 Kopeek Book;
+        font-size: 55px;
+        font-weight: 400;
+        line-height: 55px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #181818;
+    }
+
+    .section2-content {
+        display: flex;
+        gap: 50px;
+        justify-content: space-between;
+        align-items: center;
+
+        .section2-text {
+            display: flex;
+            gap: 150px;
+
+            .contents {
+                width: 100px;
+                display: flex;
+            }
+
+            h2 {
+                //styleName: Desk — H2;
+                font-family: 20 Kopeek Book;
+                font-size: 55px;
+                font-weight: 400;
+                line-height: 55px;
+                text-align: start;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #181818;
+            }
+
+            .content-text {
+                padding-top: 40px;
+
+                p {
+                    //styleName: Desk — Body;
+                    font-family: 20 Kopeek;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 25.2px;
+                    text-align: left;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    color: #181818;
+                }
+            }
+        }
+    }
+}
+
+.section3 {
+    padding-top: 50px;
+
+    h2 {
+        display: flex;
+        align-items: end;
+        justify-content: flex-end;
+        //styleName: Desk — H2;
+        font-family: 20 Kopeek Book;
+        font-size: 38px;
+        font-weight: 400;
+        line-height: 41.8px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #181818;
+    }
+
+    .section3-content {
+        display: flex;
+        gap: 50px;
+        justify-content: space-between;
+
+        p {
+            //styleName: Desk — Body;
+            font-family: 20 Kopeek;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 25.2px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #181818;
+        }
+
+        .blue-text {
+            background-color: #2B59C3;
+            color: white;
+            padding: 20px 0px;
+
+            b {
+                font-family: 20 Kopeek;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 25.2px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+            }
+        }
+    }
+}
+
+.section4 {
+    padding-top: 30px;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section4-text {
+        p {
+            //styleName: Desk — Body;
+            font-family: 20 Kopeek;
+            font-size: 18px;
+            font-weight: 400;
+            // line-height: 25.2px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #181818;
+        }
+
+        .line {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            // background-color: #F5F5F5;
+
+            p {
+                font-family: 20 Kopeek Book;
+                font-size: 55px;
+                font-weight: 400;
+                // line-height: 55px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #181818;
+            }
+
+            button {
+                background-color: #2B59C3;
+                color: white;
+                padding: 15px 30px;
+                border-radius: 50px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+
+                &:hover {
+                    background-color: #b3a6a6;
+                    color: #181818;
+                }
+            }
+        }
+    }
+}
+
+.yetim-button {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #2B59C3;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #b3a6a6;
+        color: #181818;
+    }
+}
+
+
+.section5 {
+    padding-top: 30px;
+
+    h2 {
+        //styleName: Desk — H2;
+        font-family: 20 Kopeek Book;
+        font-size: 38px;
+        font-weight: 400;
+        line-height: 41.8px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #181818;
+    }
+
+    .section5-content {
+        display: flex;
+        gap: 50px;
+        justify-content: space-between;
+
+        .section5-text {
+            .blue-section {
+                //styleName: Desk — H3;
+                padding: 10px 20px;
+                font-family: 20 Kopeek Book;
+                font-size: 26px;
+                font-weight: 400;
+                line-height: 28.6px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                background-color: #2B59C3;
+                border-radius: 5px;
+
+                p {
+                    color: #FFFFFF;
+                }
+            }
+
+            p {
+                //styleName: Desk — Body;
+                font-family: 20 Kopeek;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 25.2px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #181818;
+            }
+        }
+    }
+}
+
+.section6 {
+    padding-top: 30px;
+
+    h2 {
+        //styleName: Desk — H2;
+        font-family: 20 Kopeek Book;
+        font-size: 38px;
+        font-weight: 400;
+        line-height: 41.8px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #181818;
+    }
+
+    p {
+        //styleName: Desk — H3;
+        font-family: 20 Kopeek Book;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 28.6px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #181818;
+    }
+    .section6-form{
+        display: flex;
+        gap: 20px;
+
+        input{
+            padding: 10px 20px;
+            border-radius: 5px;
+            outline: none;
+            border: 1px solid #ccc;
+            font-family: 20 Kopeek;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        button{
+            background-color: #2B59C3;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                background-color: #b3a6a6;
+                color: #181818;
+            }
+        }
+    }
+    .checkbox{
+        padding-bottom: 50px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        input{
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            outline: none;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: border-color 0.3s ease;
+            &:checked{
+                border-color: #2B59C3;
+            }
+            &:focus{
+                border-color: #2B59C3;
+            }
+            &:disabled{
+                border-color: #ccc;
+                cursor: not-allowed;
+            }
+            &:checked + label{
+                color: #2B59C3;
+            }
+            &:focus + label{
+                color: #2B59C3;
+            }
+            &:disabled + label{
+                color: #ccc;
+            }
+
+        }
+        label{
+            font-family: 20 Kopeek;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 25.2px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #181818;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+    }
+}
+
+.section7 {
+    padding-top: 50px;
+    background-image: url('/assets/images/Rectangle\ 32.png');
+    width: 100%;
+    height: 950px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    display: flex;
+    gap: 30px;
+
+
+    .section7-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        margin: 0 auto;
+
+        h2 {
+            font-family: 20 Kopeek Book;
+            font-size: 38px;
+            font-weight: 400;
+            line-height: 41.8px;
+            text-align: start;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: white;
+        }
+
+        p {
+            font-family: 20 Kopeek Book;
+            font-size: 26px;
+            font-weight: 400;
+            line-height: 28.6px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #181818;
+        }
+        .section7-text {
+
+            display: flex;
+            gap: 80px;
+            margin: 0 auto;
+            .contents {
+                width: 100px;
+                display: flex;
+            }
+    
+            h2 {
+                //styleName: Desk — H2;
+                font-family: 20 Kopeek Book;
+                font-size: 55px;
+                font-weight: 400;
+                line-height: 55px;
+                text-align: start;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #FFFFFF;
+            }
+    
+            .content-text {
+                padding-top: 40px;
+    
+                p {
+                    //styleName: Desk — Body;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 25.2px;
+                    text-align: left;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+
+    .footer1{
+        h2{
+            font-family: 20 Kopeek Book;
+            font-size: 38px;
+            font-weight: 400;
+            line-height: 41.8px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #181818;
+        }
+        .footer1-form{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 20px;
+            input{
+                padding: 10px 20px;
+                border-radius: 5px;
+                outline: none;
+                border: 1px solid #ccc;
+                font-family: 20 Kopeek;
+                font-size: 18px;
+                font-weight: 400;
+            }
+
+            
+        }
+        .checkbox{
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            padding: 10px 0;
+            input{
+                margin-right: 10px;
+            }
+
+            label{
+                font-family: 20 Kopeek;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 25.2px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #181818;
+                cursor: pointer;
+            }
+            label + label{
+                margin-left: 10px;
+            }
+
+        }
+        button{
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #2B59C3;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            &:hover{
+                background-color: #b3a6a6;
+                color: #181818;
+            }
+            &:focus{
+                background-color: #2B59C3;
+                color: white;
+            }
+            &:disabled{
+                background-color: #ccc;
+                color: #ccc;
+                cursor: not-allowed;
+            }
+            &:disabled + label{
+                color: #ccc;
+            }
+            &:disabled + label + label{
+                color: #ccc;
+            }
+
+        }
+    }
+    .footer2{
+        h2{
+            font-family: 20 Kopeek Book;
+            font-size: 38px;
+            font-weight: 400;
+            line-height: 41.8px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #181818;
+        
+        }
+        p{
+            font-family: 20 Kopeek;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 25.2px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #181818;
+
+            p{
+                color: #2B59C3;
+                text-decoration: none;
+            }
+            :hover{
+                color: #b3a6a6;
+            }
+        }
+    }
+
+}
+
+p{
+    font-family: 20 Kopeek;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: start;
+    text-decoration-skip-ink: none;
+    color: #181818;
+}

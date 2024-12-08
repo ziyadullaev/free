@@ -1,0 +1,686 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main {
+  background-image: url("/assets/images/01 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  bottom: 10px;
+}
+main .main-text {
+  width: 500px;
+  position: absolute;
+  top: 30%;
+  left: 70px;
+  color: white;
+}
+main .main-text h2 {
+  font-family: 20 Kopeek Book;
+  font-size: 55px;
+  line-height: 55px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+}
+main .main-text p {
+  font-family: 20 Kopeek Book;
+  font-size: 34px;
+  line-height: 37.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+}
+main .main-text .main-butons {
+  display: flex;
+  gap: 20px;
+}
+main .main-text .main-butons p {
+  font-size: 18px;
+  padding: 10px 30px;
+  background-color: #FFFFFF;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+main .main-text .main-butons p:hover {
+  background-color: #b3a6a6;
+}
+main .main-text .main-butons p a {
+  color: #181818;
+  text-decoration: none;
+}
+main .main-text .main-butons p span {
+  margin-left: 10px;
+}
+main .main-text .main-butons p:last-child {
+  margin-right: 0;
+}
+main .main-text .main-butons p:first-child {
+  margin-left: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+}
+header .logo img {
+  height: 40px;
+  width: auto;
+}
+header .logo p {
+  font-family: "Hind Mysuru", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 19.44px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+header nav {
+  display: flex;
+}
+header nav img {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.section1 {
+  padding-top: 50px;
+}
+.section1 h2 {
+  font-family: 20 Kopeek Book;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 41.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+}
+
+.section1-content {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: start;
+}
+.section1-content .section1-text p {
+  font-family: 20 Kopeek;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+}
+
+.section2 {
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.section2 h2 {
+  font-family: 20 Kopeek Book;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+}
+.section2 .section2-content {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.section2 .section2-content .section2-text {
+  display: flex;
+  gap: 150px;
+}
+.section2 .section2-content .section2-text .contents {
+  width: 100px;
+  display: flex;
+}
+.section2 .section2-content .section2-text h2 {
+  font-family: 20 Kopeek Book;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: start;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+}
+.section2 .section2-content .section2-text .content-text {
+  padding-top: 40px;
+}
+.section2 .section2-content .section2-text .content-text p {
+  font-family: 20 Kopeek;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+}
+
+.section3 {
+  padding-top: 50px;
+}
+.section3 h2 {
+  display: flex;
+  align-items: end;
+  justify-content: flex-end;
+  font-family: 20 Kopeek Book;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 41.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+}
+.section3 .section3-content {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+.section3 .section3-content p {
+  font-family: 20 Kopeek;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+}
+.section3 .section3-content .blue-text {
+  background-color: #2B59C3;
+  color: white;
+  padding: 20px 0px;
+}
+.section3 .section3-content .blue-text b {
+  font-family: 20 Kopeek;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+.section4 {
+  padding-top: 30px;
+}
+.section4 img {
+  width: 100%;
+  height: auto;
+}
+.section4 .section4-text p {
+  font-family: 20 Kopeek;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+}
+.section4 .section4-text .line {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.section4 .section4-text .line p {
+  font-family: 20 Kopeek Book;
+  font-size: 55px;
+  font-weight: 400;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+}
+.section4 .section4-text .line button {
+  background-color: #2B59C3;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.section4 .section4-text .line button:hover {
+  background-color: #b3a6a6;
+  color: #181818;
+}
+
+.yetim-button {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #2B59C3;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.yetim-button:hover {
+  background-color: #b3a6a6;
+  color: #181818;
+}
+
+.section5 {
+  padding-top: 30px;
+}
+.section5 h2 {
+  font-family: 20 Kopeek Book;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 41.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+}
+.section5 .section5-content {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+.section5 .section5-content .section5-text .blue-section {
+  padding: 10px 20px;
+  font-family: 20 Kopeek Book;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 28.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  background-color: #2B59C3;
+  border-radius: 5px;
+}
+.section5 .section5-content .section5-text .blue-section p {
+  color: #FFFFFF;
+}
+.section5 .section5-content .section5-text p {
+  font-family: 20 Kopeek;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+}
+
+.section6 {
+  padding-top: 30px;
+}
+.section6 h2 {
+  font-family: 20 Kopeek Book;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 41.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+}
+.section6 p {
+  font-family: 20 Kopeek Book;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 28.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+}
+.section6 .section6-form {
+  display: flex;
+  gap: 20px;
+}
+.section6 .section6-form input {
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+  font-family: 20 Kopeek;
+  font-size: 18px;
+  font-weight: 400;
+}
+.section6 .section6-form button {
+  background-color: #2B59C3;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.section6 .section6-form button:hover {
+  background-color: #b3a6a6;
+  color: #181818;
+}
+.section6 .checkbox {
+  padding-bottom: 50px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.section6 .checkbox input {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+.section6 .checkbox input:checked {
+  border-color: #2B59C3;
+}
+.section6 .checkbox input:focus {
+  border-color: #2B59C3;
+}
+.section6 .checkbox input:disabled {
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+.section6 .checkbox input:checked + label {
+  color: #2B59C3;
+}
+.section6 .checkbox input:focus + label {
+  color: #2B59C3;
+}
+.section6 .checkbox input:disabled + label {
+  color: #ccc;
+}
+.section6 .checkbox label {
+  font-family: 20 Kopeek;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.section7 {
+  padding-top: 50px;
+  background-image: url("/assets/images/Rectangle 32.png");
+  width: 100%;
+  height: 950px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+.section7 .section7-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 0 auto;
+}
+.section7 .section7-content h2 {
+  font-family: 20 Kopeek Book;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 41.8px;
+  text-align: start;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: white;
+}
+.section7 .section7-content p {
+  font-family: 20 Kopeek Book;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 28.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+}
+.section7 .section7-content .section7-text {
+  display: flex;
+  gap: 80px;
+  margin: 0 auto;
+}
+.section7 .section7-content .section7-text .contents {
+  width: 100px;
+  display: flex;
+}
+.section7 .section7-content .section7-text h2 {
+  font-family: 20 Kopeek Book;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: start;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #FFFFFF;
+}
+.section7 .section7-content .section7-text .content-text {
+  padding-top: 40px;
+}
+.section7 .section7-content .section7-text .content-text p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #FFFFFF;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+footer .footer1 h2 {
+  font-family: 20 Kopeek Book;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 41.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+}
+footer .footer1 .footer1-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+footer .footer1 .footer1-form input {
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+  font-family: 20 Kopeek;
+  font-size: 18px;
+  font-weight: 400;
+}
+footer .footer1 .checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+footer .footer1 .checkbox input {
+  margin-right: 10px;
+}
+footer .footer1 .checkbox label {
+  font-family: 20 Kopeek;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+  cursor: pointer;
+}
+footer .footer1 .checkbox label + label {
+  margin-left: 10px;
+}
+footer .footer1 button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #2B59C3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+footer .footer1 button:hover {
+  background-color: #b3a6a6;
+  color: #181818;
+}
+footer .footer1 button:focus {
+  background-color: #2B59C3;
+  color: white;
+}
+footer .footer1 button:disabled {
+  background-color: #ccc;
+  color: #ccc;
+  cursor: not-allowed;
+}
+footer .footer1 button:disabled + label {
+  color: #ccc;
+}
+footer .footer1 button:disabled + label + label {
+  color: #ccc;
+}
+footer .footer2 h2 {
+  font-family: 20 Kopeek Book;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 41.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+}
+footer .footer2 p {
+  font-family: 20 Kopeek;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+}
+footer .footer2 p p {
+  color: #2B59C3;
+  text-decoration: none;
+}
+footer .footer2 p :hover {
+  color: #b3a6a6;
+}
+
+p {
+  font-family: 20 Kopeek;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: start;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #181818;
+}/*# sourceMappingURL=main.css.map */
